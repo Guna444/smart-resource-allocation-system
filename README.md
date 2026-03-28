@@ -3,7 +3,7 @@
 A **menu-driven Java 17 console application** that simulates a real-world **resource allocation engine**.  
 It allocates incoming tasks to eligible resources using **priority + deadline ordering**, **optimized data structures**, and **pluggable allocation strategies** (Strategy Pattern) to balance utilization and reduce bottlenecks.
 
-> Purpose: LLD/resume-ready project focusing on clean architecture, extensibility, and correctness (not a live web app).
+> Purpose: LLD/Project focusing on clean architecture, extensibility, and correctness (not a live web app).
 
 ---
 
@@ -138,15 +138,3 @@ This project is intentionally kept **in-memory** for simplicity and interview fo
 - Unit tests (JUnit) for strategies and engine behavior
 - Preemption / SLA-aware scheduling
 - Concurrency (thread-safe queue) + benchmarking
-
----
-
-## Resume Bullets (ready to paste)
-- Built a **priority + deadline-driven task allocation engine** using Java Collections to enable low-latency selection and efficient utilization under varying workloads.
-- Implemented **pluggable allocation strategies (Strategy pattern)** with real-time state tracking to balance load and prevent resource bottlenecks during peak demand.
-- Delivered a **fault-tolerant, menu-driven system** with modular components and clear separation of concerns for maintainable, scalable architecture.
-
----
-
-## License
-MIT (or add your preferred license)
