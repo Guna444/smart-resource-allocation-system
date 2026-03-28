@@ -1,4 +1,4 @@
-# Smart Resource Allocation System (LLD) — Mar 2026
+# Smart Resource Allocation System (LLD)
 
 A **menu-driven Java 17 console application** that simulates a real-world **resource allocation engine**.  
 It allocates incoming tasks to eligible resources using **priority + deadline ordering**, **optimized data structures**, and **pluggable allocation strategies** (Strategy Pattern) to balance utilization and reduce bottlenecks.
